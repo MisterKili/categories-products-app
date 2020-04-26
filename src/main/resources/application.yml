@@ -1,0 +1,6 @@
+spring:
+  h2.console:
+    enabled: true
+    path: '/prod-console'
+  datasource:
+    url: 'jdbc:h2:file:/home/wiktor/IntelliJProjects/categories-products-app/products-db'
